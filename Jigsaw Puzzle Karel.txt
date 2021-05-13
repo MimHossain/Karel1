@@ -1,0 +1,410 @@
+from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
+"""
+File: PuzzleKarel.py
+--------------------
+Karel should finish the puzzle by picking up the last beeper (puzzle piece) and placing it in the right spot.
+Karel should end in the same position Karel starts in -- the bottom left corner of the world.
+"""
+
+def main():
+    """
+    Karel will move 2 times then pick the beeper, after that it will move,
+     turn left and move 2 times, put the beeper and then turn around. 
+     For that we defined new command useing turn left 2 times.  
+     then it will move 2 times towards the first row.Then it would turn around with defining new commands, using turn left 3 times.
+     Then it will move back to its place using move 3 times, then it will turn around
+     using turn left 2 times to get that previous position. 
+    
+    """
+    move()
+    move()
+    pick_beeper()
+    move()
+    turn_left()
+    move()
+    move()
+    put_beeper()
+    turn_around()
+    move()
+    move()
+    turn_right()
+    move()
+    move()
+    move()
+    turn_left()
+    turn_left() 
+
+
+    
+
+def turn_around():
+    turn_left()
+    turn_left()
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+      
+
+
+if __name__ == '__main__':
+    run_karel_program('Puzzle.w')from karel.stanfordkarel import *
+
